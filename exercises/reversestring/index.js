@@ -6,7 +6,8 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-//1.
+//1. ###############################################
+
 // function reverse(str) {
 //     const splitString = str.split("");
 //     const reverseArray = splitString.reverse();
@@ -15,7 +16,8 @@
 //     return joinArray
 // }
 
-//2.
+//2. ##############################################
+
 // function reverse(str) {
 //     let reversed = "";
 
@@ -25,7 +27,8 @@
 //     return reversed
 // }
 
-//3.
+//3. ###############################################
+
 function reverse(str) {
     // "reduce" takes all element of an array, and reduces to a single element
     // It takes two argument, first one is an arrow function, and a starting initial value.
